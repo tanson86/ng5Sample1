@@ -1,0 +1,10 @@
+<h2>User List</h2>
+
+<table>
+  <tr><th>Id</th><th>Name</th><th>Address</th></tr>
+      <tr *ngFor="let data of dataFromSpring">
+        <td>{{data.id}}</td>
+        <td>{{data.username}}</td>
+        <td>{{data.email}}</td>
+      </tr>
+</table>
